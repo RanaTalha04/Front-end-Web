@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 104vh;
+    background-color: #d1aaaa;
+}
+
+.main-body{
+    width: 150px;
+    height: 400px;
+    background-color: rgb(19, 19, 19);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.signal-red{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+.signal-yellow{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.signal-green{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+}
